@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  font-family: 'Bai Jamjuree',sans-serif;
+  box-sizing: border-box;
+  flex-shrink: 0; }
+
+html, body {
+  overflow: hidden; }
+
+body {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  margin: 0;
+  background-color: #0b0c0e;
+  color: white;
+  font-size: 12px;
+  user-select: none; }
+
+#content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: #0b0c0e url(../imgs/bg1.png) center bottom no-repeat;
+  background-size: contain; }
+
+#rendererContainer {
+  width: 100%;
+  max-width: 800px;
+  cursor: all-scroll; }
+  @media (max-width: 1200px) {
+    #rendererContainer {
+      max-width: 640px; } }
+
+#renderer {
+  width: 100% !important; }
+
+#title {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px; }
+  #title img {
+    height: 50px; }
+  #title h3 {
+    position: relative;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 16px;
+    font-weight: 400; }
+    @media (max-width: 767.98px) {
+      #title h3 {
+        font-size: 14px; } }
+
+#guide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px; }
+  #guide > img {
+    margin-top: -10px;
+    width: auto;
+    height: 35px; }
+  #guide div {
+    position: relative;
+    width: 175px;
+    height: 15px;
+    margin-left: 5px; }
+  #guide span {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.75);
+    mix-blend-mode: overlay;
+    white-space: nowrap; }
+
+#G7495x {
+  bottom: 55px !important; }
