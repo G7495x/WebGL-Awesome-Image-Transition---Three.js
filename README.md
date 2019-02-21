@@ -8,6 +8,6 @@ Highlights:
 - Fully GPU optimized
 - Touchscreen friendly
 
-Demo - [g7495x.gitlab.io/awesome-3d-image-transition-1-three.js](https://g7495x.gitlab.io/awesome-3d-image-transition-1-three.js/)
+Demo - [g7495x.github.io/WebGL-Awesome-Image-Transition---Three.js/src](https://g7495x.github.io/WebGL-Awesome-Image-Transition---Three.js/src/)
 
 ![](Screenshot-01.png)
